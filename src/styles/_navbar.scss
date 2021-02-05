@@ -1,0 +1,20 @@
+.navbar {
+  background-color: white;
+  color: var(--brand-blue);
+  box-shadow: 0 3px 3px -1px rgba(0, 0, 0, 0.157),
+    0 3px 36px 10px rgba(0, 29, 124, 0.068);
+}
+
+.navitem__userlogo {
+  height: 20px;
+  margin-right: 4px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--brand-blue);
+  font-size: 14px;
+}
+
+.navbar-brand {
+  color: var(--brand-blue) !important;
+}

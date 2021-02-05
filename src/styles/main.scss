@@ -1,0 +1,151 @@
+@import "./navbar.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  //brand colors
+  --brand-blue: #2462d2;
+  //layout colors
+  --layout-white: #f5f5f8;
+  --layout-dark: #2f3d48;
+}
+
+body {
+  background-color: #f5f5f8;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.aarco__btn {
+  background: white;
+  color: var(--brand-blue);
+}
+
+.aarco__btni {
+  background: var(--brand-blue);
+  color: white;
+}
+
+//HOMEPAGE
+
+//HERO SECTION
+.hero__banner {
+  visibility: hidden;
+  color: white;
+  margin-top: 55px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(180deg, #2462d2 0%, #231f1d3f 90%),
+    url("https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    margin-bottom: 48px;
+    font-size: 48px;
+  }
+}
+
+//SERVICES SECTION
+.services__banner {
+  padding: 4rem 0;
+}
+
+.services__card {
+  margin-bottom: 3rem;
+  overflow: hidden;
+  min-height: 340px;
+  padding: 2rem;
+  box-shadow: 0 3px 3px -1px rgba(0, 0, 0, 0.157),
+    0 3px 36px 10px rgba(0, 29, 124, 0.068);
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  color: white;
+
+  p {
+    font-size: 14px;
+  }
+
+  .svg__wrap {
+    padding: 1rem;
+    background-color: white;
+    max-width: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 3rem;
+
+    img {
+      height: 30px;
+      fill: white !important;
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+//ABOUT
+.about__banner {
+  padding: 4rem 0;
+  background-color: white;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(180deg, #2f3d48 0%, #231f1d3f 270%),
+    url("https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80");
+}
+
+.about__card {
+  background-color: white;
+  border-radius: 6px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about__svg {
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+.form__banner {
+  padding: 4rem 0;
+  background-color: var(--layout-white);
+}
+
+.form__card {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 3px 3px -1px rgba(0, 0, 0, 0.157),
+    0 3px 36px 10px rgba(0, 29, 124, 0.068);
+  border-radius: 6px;
+  color: #222222;
+}
+
+.footer__banner {
+  border-top: 1px solid lightgrey;
+  p {
+    margin: 0;
+  }
+}

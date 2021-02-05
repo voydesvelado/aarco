@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/aarco/static/css/main.3b64ddee.chunk.css",
-    "main.js": "/aarco/static/js/main.b9397b52.chunk.js",
-    "main.js.map": "/aarco/static/js/main.b9397b52.chunk.js.map",
+    "main.css": "/aarco/static/css/main.d2e98af5.chunk.css",
+    "main.js": "/aarco/static/js/main.045192e0.chunk.js",
+    "main.js.map": "/aarco/static/js/main.045192e0.chunk.js.map",
     "runtime-main.js": "/aarco/static/js/runtime-main.9162a0c8.js",
     "runtime-main.js.map": "/aarco/static/js/runtime-main.9162a0c8.js.map",
-    "static/js/2.d5a25b67.chunk.js": "/aarco/static/js/2.d5a25b67.chunk.js",
-    "static/js/2.d5a25b67.chunk.js.map": "/aarco/static/js/2.d5a25b67.chunk.js.map",
+    "static/css/2.150d169a.chunk.css": "/aarco/static/css/2.150d169a.chunk.css",
+    "static/js/2.4429facd.chunk.js": "/aarco/static/js/2.4429facd.chunk.js",
+    "static/js/2.4429facd.chunk.js.map": "/aarco/static/js/2.4429facd.chunk.js.map",
     "index.html": "/aarco/index.html",
-    "static/css/main.3b64ddee.chunk.css.map": "/aarco/static/css/main.3b64ddee.chunk.css.map",
-    "static/js/2.d5a25b67.chunk.js.LICENSE.txt": "/aarco/static/js/2.d5a25b67.chunk.js.LICENSE.txt",
+    "static/css/2.150d169a.chunk.css.map": "/aarco/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.d2e98af5.chunk.css.map": "/aarco/static/css/main.d2e98af5.chunk.css.map",
+    "static/js/2.4429facd.chunk.js.LICENSE.txt": "/aarco/static/js/2.4429facd.chunk.js.LICENSE.txt",
     "static/media/car.96742b76.svg": "/aarco/static/media/car.96742b76.svg",
     "static/media/eye.68a11a16.svg": "/aarco/static/media/eye.68a11a16.svg",
     "static/media/heart.d736f242.svg": "/aarco/static/media/heart.d736f242.svg",
@@ -20,8 +22,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9162a0c8.js",
-    "static/js/2.d5a25b67.chunk.js",
-    "static/css/main.3b64ddee.chunk.css",
-    "static/js/main.b9397b52.chunk.js"
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.4429facd.chunk.js",
+    "static/css/main.d2e98af5.chunk.css",
+    "static/js/main.045192e0.chunk.js"
   ]
 }

@@ -1,10 +1,17 @@
 import React from "react";
+import $ from "jquery";
 
 const Navbar = () => {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-light">
       <div className="container">
-        <a className="navbar-brand" href="#start">
+        <a
+          onClick={() => {
+            $(".navbar-collapse").collapse("hide");
+          }}
+          className="navbar-brand"
+          href="#start"
+        >
           Aarco
         </a>
         <button
@@ -25,6 +32,9 @@ const Navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a
+                onClick={() => {
+                  $(".navbar-collapse").collapse("hide");
+                }}
                 href="#start"
                 className="nav-item nav-link d-flex align-items-start justify-lg-content-center mr-3"
               >
@@ -47,6 +57,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a
+                onClick={() => {
+                  $(".navbar-collapse").collapse("hide");
+                }}
                 href="#about"
                 className="nav-item nav-link d-flex align-items-start justify-lg-content-center mr-3"
               >
@@ -69,6 +82,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a
+                onClick={() => {
+                  $(".navbar-collapse").collapse("hide");
+                }}
                 href="#form"
                 className="nav-item nav-link d-flex align-items-start justify-lg-content-center mr-3"
               >

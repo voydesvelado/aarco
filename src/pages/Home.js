@@ -192,8 +192,12 @@ const Home = () => {
       <section className="form__banner" id="form" ref={contactRef}>
         <div className="container">
           <div className="row">
-            <div className="col-12  text-center">
-              <h1 className="mb-5">Contáctanos</h1>
+            <div className="col-12 mb-4 text-center">
+              <h1>Contáctanos</h1>
+              <p>
+                Llena este formulario y uno de nuestros asesores se pondrá en
+                contacto contigo.
+              </p>
             </div>
           </div>
           <div className="row d-flex justify-content-center">

@@ -110,7 +110,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center mb-5">
-              <h1>Nuestros servicios</h1>
+              <h1>Nuestros seguros</h1>
             </div>
           </div>
           <div className="row">
@@ -154,10 +154,10 @@ const Home = () => {
                 Alatorre Avendaño Recursos Corporativos, S.C. nace en 1986 como
                 una sociedad promotora de seguros. En la búsqueda de diferentes
                 alternativas de comercialización y con el fin de ampliar sus
-                servicios se crea AARCO Agente de Seguros y de Finanzas, S.A de
-                C.V. que le permite actuar como corredor de seguros y de
-                finanzas con las principales instituciones del ramo establecidas
-                en México
+                servicios se crea AARCO Agente de Seguros y de Fianzas, S.A de
+                C.V. que le permite actuar como corredor de seguros y de fianzas
+                con las principales instituciones del ramo establecidas en
+                México
               </p>
             </div>
           </div>
@@ -167,7 +167,7 @@ const Home = () => {
               <div className="about__card text-center">
                 <img src={rocket} className="about__svg" alt="misión" />
                 <h3>Misión</h3>
-                <p>Atracción y desarrolo de personas.</p>
+                <p>Atracción y desarrollo de personas.</p>
               </div>
             </div>
             <div className="col-12 col-lg-4">
@@ -201,7 +201,7 @@ const Home = () => {
             </div>
           </div>
           <div className="row d-flex justify-content-center">
-            <div className="col-12 col-lg-8">
+            <div className="col-12 col-lg-7">
               <ContactForm />
             </div>
           </div>
